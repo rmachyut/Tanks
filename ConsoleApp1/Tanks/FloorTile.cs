@@ -39,6 +39,7 @@ namespace GameTanks
 
             this.Transform.SpritePath = Bootstrap.getAssetManager().getAssetPath("floor.png");
             //this.Transform.Scalex = 2.0f;
+            //this.Transform.Scaley = 2.0f;
             Bootstrap.getDisplay().addToDraw(this);
         }
 

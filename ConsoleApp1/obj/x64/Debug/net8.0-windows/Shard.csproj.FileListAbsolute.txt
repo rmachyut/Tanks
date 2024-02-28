@@ -134,3 +134,4 @@ D:\Uni\Project\GameEngine\Shard\ConsoleApp1\bin\x64\Debug\net8.0-windows\Sayers.
 D:\Uni\Project\GameEngine\Shard\ConsoleApp1\obj\x64\Debug\net8.0-windows\Shard.csproj.CopyComplete
 D:\Uni\Project\GameEngine\Shard\ConsoleApp1\obj\x64\Debug\net8.0-windows\Shard.genruntimeconfig.cache
 D:\Uni\Project\GameEngine\Shard\ConsoleApp1\obj\x64\Debug\net8.0-windows\ref\Shard.dll
+D:\Uni\Project\GameEngine\Shard\ConsoleApp1\obj\x64\Debug\net8.0-windows\Shard.sourcelink.json
