@@ -31,14 +31,20 @@ namespace Shard
                     return;
             }
 
-            createTiles();
+            //createTiles();
         }
-
 
         public void createTiles()
         {
             myWallTiles.Clear();
             myFloorTiles.Clear();
+
+            FloorTile ft = new FloorTile();
+            ft.Transform.X = 100;
+            ft.Transform.Y = 100;
+            ft.Transform.Scalex = 30.0f;
+            ft.Transform.Scaley = 30.0f;
+            myFloorTiles.Add(ft);
 
             for (int i = 0; i < 15; i++)
             {
@@ -74,12 +80,6 @@ namespace Shard
                     //}
                 }
             }
-            FloorTile ft = new FloorTile();
-            ft.Transform.X = 100;
-            ft.Transform.Y = 100;
-            ft.Transform.Scalex = 30.0f;
-            ft.Transform.Scaley = 30.0f;
-            myFloorTiles.Add(ft);
         }
 
         public override void initialize()
@@ -89,7 +89,10 @@ namespace Shard
             myWallTiles = new List<WallTile>();
             myFloorTiles = new List<FloorTile>();
 
-            Tank p = new Tank();
+            createTiles();
+
+            Tank p1 = new Tank();
+            //Tank p2 = new Tank();
 
             //Ball b = new Ball();
             //b.Transform.X = 150;
