@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace GameTanks
 {
-    class Tank : GameObject, InputListener, CollisionHandler
+    class Tank1 : GameObject, InputListener, CollisionHandler
     {
         bool up, down, turnLeft, turnRight;
 
@@ -42,7 +42,7 @@ namespace GameTanks
 
             MyBody.addRectCollider();
 
-            addTag("Tank");
+            addTag("Tank1");
 
 
         }
@@ -176,7 +176,7 @@ namespace GameTanks
 
         public override string ToString()
         {
-            return "Tank: [" + Transform.X + ", " + Transform.Y + ", " + Transform.Wid + ", " + Transform.Ht + "]";
+            return "Tank1: [" + Transform.X + ", " + Transform.Y + ", " + Transform.Wid + ", " + Transform.Ht + "]";
         }
 
     }

@@ -28,7 +28,7 @@ namespace Shard
             }
             foreach (FloorTile b in myFloorTiles)
             {
-                    return;
+                return;
             }
 
             //createTiles();
@@ -91,7 +91,7 @@ namespace Shard
 
             createTiles();
 
-            Tank p1 = new Tank();
+            Tank1 p1 = new Tank1();
             //Tank p2 = new Tank();
 
             //Ball b = new Ball();

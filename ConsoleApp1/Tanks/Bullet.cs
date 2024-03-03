@@ -1,14 +1,15 @@
 ﻿using Shard;
 using System;
 using System.Drawing;
+using System.IO;
 
 namespace GameTanks
 {
     class Bullet : GameObject, CollisionHandler
     {
-        private Tank origin;
+        private Tank1 origin;
 
-        public void setupBullet(Tank or, float x, float y)
+        public void setupBullet(Tank1 or, float x, float y)
         {
             this.Transform.X = x;
             this.Transform.Y = y;
@@ -17,25 +18,27 @@ namespace GameTanks
 
             this.origin = or;
 
+            //this.Transform.SpritePath = Bootstrap.getAssetManager().getAssetPath("ball.png");
             setPhysicsEnabled();
 
-            MyBody.addRectCollider((int)x, (int)y, 10, 10);
+            //MyBody.addRectCollider((int)x, (int)y, 10, 10);
 
             addTag("Bullet");
-
+            MyBody.addCircleCollider();
             //            MyBody.addCircleCollider((int)x, (int)y, 5);
 
-            MyBody.Mass = 100;
-            MyBody.MaxForce = 50;
+            MyBody.Mass = 1;
+            MyBody.MaxForce = 5;
             //            MyBody.addTorque(0.001f);
 
-            MyBody.PassThrough = true;
+            //MyBody.PassThrough = true;
 
         }
 
         public override void initialize()
         {
             this.Transient = true;
+            this.Transform.SpritePath = Bootstrap.getAssetManager().getAssetPath("ball.png");
         }
 
         public override void physicsUpdate()
@@ -45,34 +48,53 @@ namespace GameTanks
 
         public override void update()
         {
-            Random r = new Random();
-            Color col = Color.FromArgb(r.Next(0, 256), r.Next(0, 256), 0);
+            Bootstrap.getDisplay().addToDraw(this);
+
+            //Random r = new Random();
+            //Color col = Color.FromArgb(r.Next(0, 256), r.Next(0, 256), 0);
 
 
-            Bootstrap.getDisplay().drawLine(
-                (int)Transform.X,
-                (int)Transform.Y,
-                (int)Transform.X + 10,
-                (int)Transform.Y + 10,
-                col);
+            //Bootstrap.getDisplay().drawLine(
+            //    (int)Transform.X - 5,
+            //    (int)Transform.Y - 5,
+            //    (int)Transform.X + 5,
+            //    (int)Transform.Y - 5,
+            //    col);
 
-            Bootstrap.getDisplay().drawLine(
-                (int)Transform.X + 10,
-                (int)Transform.Y,
-                (int)Transform.X,
-                (int)Transform.Y + 10,
-                col);
+            //Bootstrap.getDisplay().drawLine(
+            //    (int)Transform.X + 5,
+            //    (int)Transform.Y - 5,
+            //    (int)Transform.X + 5,
+            //    (int)Transform.Y + 5,
+            //    col);
 
+            //Bootstrap.getDisplay().drawLine(
+            //    (int)Transform.X + 5,
+            //    (int)Transform.Y + 5,
+            //    (int)Transform.X - 5,
+            //    (int)Transform.Y + 5,
+            //    col);
+
+            //Bootstrap.getDisplay().drawLine(
+            //    (int)Transform.X - 5,
+            //    (int)Transform.Y + 5,
+            //    (int)Transform.X - 5,
+            //    (int)Transform.Y - 5,
+            //    col);
 
         }
 
         public void onCollisionEnter(PhysicsBody x)
         {
-            if (x.Parent.checkTag("Spaceship") == false)
+            if (x.Parent.checkTag("WallTile") == false)
             {
                 Debug.Log("Boom! " + x);
                 ToBeDestroyed = true;
             }
+            //else
+            //{
+            //    Directory = 
+            //}
         }
 
         public void onCollisionExit(PhysicsBody x)
