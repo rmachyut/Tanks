@@ -47,13 +47,14 @@ namespace GameTanks
 
         }
 
-        public void fireBullet()
+        public void fireBullet1()
         {
-            Bullet b = new Bullet();
+            Bullet1 b1 = new Bullet1();
 
-            b.setupBullet(this, this.Transform.Centre.X, this.Transform.Centre.Y);
+            b1.setupBullet1(this, this.Transform.Centre.X + 20, this.Transform.Centre.Y);
 
-            b.Transform.rotate(this.Transform.Rotz);
+            b1.Transform.rotate(this.Transform.Rotz);
+            
 
             Bootstrap.getSound().playSound("fire.wav");
         }
@@ -117,7 +118,7 @@ namespace GameTanks
             {
                 if (inp.Key == (int)SDL.SDL_Scancode.SDL_SCANCODE_SPACE)
                 {
-                    fireBullet();
+                    fireBullet1();
                 }
             }
         }
@@ -144,7 +145,7 @@ namespace GameTanks
 
             if (down)
             {
-                MyBody.addForce(this.Transform.Forward, -1.5f);
+                MyBody.addForce(this.Transform.Forward, -2f);
             }
 
 
@@ -157,7 +158,7 @@ namespace GameTanks
 
         public void onCollisionEnter(PhysicsBody x)
         {
-            if (x.Parent.checkTag("Bullet") == false)
+            if (x.Parent.checkTag("Bullet2") == true)
             {
                 MyBody.DebugColor = Color.Red;
             }
@@ -180,4 +181,5 @@ namespace GameTanks
         }
 
     }
+
 }

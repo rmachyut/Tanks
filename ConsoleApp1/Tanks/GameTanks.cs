@@ -92,7 +92,7 @@ namespace Shard
             createTiles();
 
             Tank1 p1 = new Tank1();
-            //Tank p2 = new Tank();
+            Tank2 p2 = new Tank2();
 
             //Ball b = new Ball();
             //b.Transform.X = 150;
