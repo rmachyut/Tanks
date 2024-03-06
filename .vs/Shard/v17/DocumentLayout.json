@@ -3,32 +3,68 @@
   "WorkspaceRootPath": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\gametanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\gametanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\College Assignments\\Game Engine Architecture\\Tanks\\config.cfg||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config.cfg||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\walltile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\walltile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\gametest\\spaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\gametest\\spaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\gametanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\gametanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\spaceinvaders\\gamespaceinvaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\spaceinvaders\\gamespaceinvaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\floortile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\floortile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\shard\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\shard\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\walltile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|solutionrelative:consoleapp1\\tanks\\walltile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{00D677B6-B5C6-4F5E-B8BB-663F2FC31C9E}|ConsoleApp1\\Shard.csproj|d:\\college assignments\\game engine architecture\\tanks\\consoleapp1\\tanks\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,16 +78,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
+=======
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Spaceship.cs",
+              "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\GameTest\\Spaceship.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\GameTest\\Spaceship.cs",
+              "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\GameTest\\Spaceship.cs",
+              "RelativeToolTip": "ConsoleApp1\\GameTest\\Spaceship.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T12:42:31.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "Transform.cs",
               "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Shard\\Transform.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Shard\\Transform.cs",
               "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Shard\\Transform.cs",
               "RelativeToolTip": "ConsoleApp1\\Shard\\Transform.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T16:26:48.042Z"
@@ -59,11 +117,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "ViewState": "AQIAACsAAAAAAAAAAAAmwDAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:42:47.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "FloorTile.cs",
               "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\FloorTile.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\FloorTile.cs",
               "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\FloorTile.cs",
               "RelativeToolTip": "ConsoleApp1\\Tanks\\FloorTile.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwCkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T16:26:48.122Z"
@@ -71,11 +139,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:42:47.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+>>>>>>> Stashed changes
               "Title": "WallTile.cs",
               "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\WallTile.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\WallTile.cs",
               "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\WallTile.cs",
               "RelativeToolTip": "ConsoleApp1\\Tanks\\WallTile.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T16:26:48.126Z"
@@ -83,6 +161,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+=======
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwEQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:42:47.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+>>>>>>> Stashed changes
               "Title": "Wall.cs",
               "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Wall.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\Wall.cs",
@@ -90,6 +177,7 @@
               "RelativeToolTip": "ConsoleApp1\\Tanks\\Wall.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-02-28T16:26:48.128Z"
             },
             {
@@ -103,10 +191,38 @@
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T16:26:48.13Z"
+=======
+              "WhenOpened": "2024-02-28T09:42:47.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Paddle.cs",
+              "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Paddle.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\Paddle.cs",
+              "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Paddle.cs",
+              "RelativeToolTip": "ConsoleApp1\\Tanks\\Paddle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:42:47.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Ball.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\Ball.cs",
+              "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Ball.cs",
+              "RelativeToolTip": "ConsoleApp1\\Tanks\\Ball.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:42:47.825Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< Updated upstream
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Bullet.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\Bullet.cs",
@@ -119,11 +235,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+=======
+>>>>>>> Stashed changes
               "Title": "GameTanks.cs",
               "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\GameTanks.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\GameTanks.cs",
               "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\GameTanks.cs",
               "RelativeToolTip": "ConsoleApp1\\Tanks\\GameTanks.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAEYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T16:26:48.134Z",
@@ -132,6 +251,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:42:47.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
               "Title": "config.cfg",
               "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\config.cfg",
               "RelativeDocumentMoniker": "config.cfg",
@@ -139,8 +267,37 @@
               "RelativeToolTip": "config.cfg",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-02-28T16:26:48.146Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2024-02-28T09:42:47.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tank.cs",
+              "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Tank.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Tanks\\Tank.cs",
+              "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Tanks\\Tank.cs",
+              "RelativeToolTip": "ConsoleApp1\\Tanks\\Tank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T12:46:14.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameSpaceInvaders.cs",
+              "DocumentMoniker": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\SpaceInvaders\\GameSpaceInvaders.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SpaceInvaders\\GameSpaceInvaders.cs",
+              "ToolTip": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\SpaceInvaders\\GameSpaceInvaders.cs",
+              "RelativeToolTip": "ConsoleApp1\\SpaceInvaders\\GameSpaceInvaders.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T12:15:16.707Z"
+>>>>>>> Stashed changes
             }
           ]
         }

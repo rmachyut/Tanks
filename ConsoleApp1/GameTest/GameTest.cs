@@ -24,7 +24,7 @@ namespace Shard
         }
         public void createShip()
         {
-            GameObject ship = new Spaceship();
+            GameObject ship = new Tank();
             Random rand = new Random();
             int offsetx = 0, offsety = 0;
 

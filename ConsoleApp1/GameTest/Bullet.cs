@@ -6,9 +6,9 @@ namespace GameTest
 {
     class Bullet : GameObject, CollisionHandler
     {
-        private Spaceship origin;
+        private Tank origin;
 
-        public void setupBullet(Spaceship or, float x, float y)
+        public void setupBullet(Tank or, float x, float y)
         {
             this.Transform.X = x;
             this.Transform.Y = y;
