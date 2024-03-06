@@ -7,13 +7,14 @@ namespace GameTanks
     class Tank1 : GameObject, InputListener, CollisionHandler
     {
         bool up, down, turnLeft, turnRight;
-
+        private int health1;
+        public int Health1 { get => health1; set => health1 = value; }
 
         public override void initialize()
         {
 
-            this.Transform.X = 500.0f;
-            this.Transform.Y = 500.0f;
+            this.Transform.X = 150.0f;
+            this.Transform.Y = 150.0f;
             this.Transform.SpritePath = Bootstrap.getAssetManager().getAssetPath("BasicTank.png");
 
 
@@ -161,18 +162,21 @@ namespace GameTanks
             if (x.Parent.checkTag("Bullet2") == true)
             {
                 MyBody.DebugColor = Color.Red;
+                Health1 -= 1;
+
+                if (Health1 <= 0)
+                {
+                    this.ToBeDestroyed = true;
+                }
             }
         }
 
         public void onCollisionExit(PhysicsBody x)
         {
-
-            MyBody.DebugColor = Color.Green;
         }
 
         public void onCollisionStay(PhysicsBody x)
         {
-            MyBody.DebugColor = Color.Blue;
         }
 
         public override string ToString()

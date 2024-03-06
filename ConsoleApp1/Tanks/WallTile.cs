@@ -19,7 +19,7 @@ namespace GameTanks
             MyBody.Kinematic = true;
 
             MyBody.addRectCollider();
-
+            MyBody.ReflectOnCollision = true;
             addTag("WallTile");
 
         }

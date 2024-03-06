@@ -7,7 +7,8 @@ namespace GameTanks
     class Tank2 : GameObject, InputListener, CollisionHandler
     {
         bool up, down, turnLeft, turnRight;
-
+        private int health2;
+        public int Health2 { get => health2; set => health2 = value; }
 
         public override void initialize()
         {
@@ -157,21 +158,24 @@ namespace GameTanks
 
         public void onCollisionEnter(PhysicsBody x)
         {
-            if (x.Parent.checkTag("Bullet1") == false)
+            if (x.Parent.checkTag("Bullet1") == true)
             {
                 MyBody.DebugColor = Color.Red;
+                Health2 -= 1;
+
+                if (Health2 <= 0)
+                {
+                    this.ToBeDestroyed = true;
+                }
             }
         }
 
         public void onCollisionExit(PhysicsBody x)
         {
-
-            MyBody.DebugColor = Color.Green;
         }
 
         public void onCollisionStay(PhysicsBody x)
         {
-            MyBody.DebugColor = Color.Blue;
         }
 
         public override string ToString()

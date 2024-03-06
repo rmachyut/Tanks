@@ -92,7 +92,9 @@ namespace Shard
             createTiles();
 
             Tank1 p1 = new Tank1();
+            p1.Health1 = 3;
             Tank2 p2 = new Tank2();
+            p2.Health2 = 3;
 
             //Ball b = new Ball();
             //b.Transform.X = 150;

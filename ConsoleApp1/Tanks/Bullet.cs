@@ -2,13 +2,16 @@
 using System;
 using System.Drawing;
 using System.IO;
+using System.Numerics;
 
 namespace GameTanks
 {
     class Bullet1 : GameObject, CollisionHandler
     {
         private Tank1 origin;
-
+        Vector2 dir, lastDir;
+        internal Vector2 LastDir { get => lastDir; set => lastDir = value; }
+        internal Vector2 Dir { get => dir; set => dir = value; }
         public void setupBullet1(Tank1 or, float x, float y)
         {
             this.Transform.X = x;
@@ -27,6 +30,7 @@ namespace GameTanks
             MyBody.addCircleCollider();
             //            MyBody.addCircleCollider((int)x, (int)y, 5);
 
+            MyBody.ReflectOnCollision = true;
             MyBody.Mass = 1;
             MyBody.MaxForce = 5;
             //            MyBody.addTorque(0.001f);
@@ -40,7 +44,6 @@ namespace GameTanks
             this.Transient = true;
             this.Transform.SpritePath = Bootstrap.getAssetManager().getAssetPath("ball.png");
             addTag("Bullet1");
-            
 
         }
 
@@ -94,9 +97,10 @@ namespace GameTanks
                 Debug.Log("Boom! " + x);
                 ToBeDestroyed = true;
             }
-            //else
+            //else if(x.Parent.checkTag("WallTile") == true)
             //{
-            //    Directory = 
+            //    Debug.Log("Hit Wall");
+            //    Dir = new Vector2(1,1);
             //}
         }
 
