@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uni\\Project\\GameEngine\\Shard\\ConsoleApp1\\Shard.csproj": {}
+    "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Shard.csproj": {}
   },
   "projects": {
-    "D:\\Uni\\Project\\GameEngine\\Shard\\ConsoleApp1\\Shard.csproj": {
+    "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Shard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uni\\Project\\GameEngine\\Shard\\ConsoleApp1\\Shard.csproj",
+        "projectUniqueName": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Shard.csproj",
         "projectName": "Shard",
-        "projectPath": "D:\\Uni\\Project\\GameEngine\\Shard\\ConsoleApp1\\Shard.csproj",
-        "packagesPath": "C:\\Users\\boost\\.nuget\\packages\\",
-        "outputPath": "D:\\Uni\\Project\\GameEngine\\Shard\\ConsoleApp1\\obj\\",
+        "projectPath": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\Shard.csproj",
+        "packagesPath": "C:\\Users\\tanma\\.nuget\\packages\\",
+        "outputPath": "D:\\College Assignments\\Game Engine Architecture\\Tanks\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\boost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

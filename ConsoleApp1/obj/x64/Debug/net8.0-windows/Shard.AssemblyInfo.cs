@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56fb6c7907f364c205effe75c71c69ef3a2c79ab")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("Shard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

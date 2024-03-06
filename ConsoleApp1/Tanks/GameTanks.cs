@@ -39,6 +39,14 @@ namespace Shard
             myWallTiles.Clear();
             myFloorTiles.Clear();
 
+            FloorTile ft = new FloorTile();
+            ft.Transform.X = 100;
+            ft.Transform.Y = 100;
+            ft.Transform.Scalex = 30.0f;
+            ft.Transform.Scaley = 30.0f;
+            myFloorTiles.Add(ft);
+
+
             for (int i = 0; i < 15; i++)
             {
                 for (int j = 0; j < 15; j++)
@@ -64,6 +72,7 @@ namespace Shard
                         //br.Health = 1 + rand.Next(3);
                         myWallTiles.Add(br);
                     }
+<<<<<<< Updated upstream
                     else
                     {
                         FloorTile br = new FloorTile();
@@ -73,6 +82,18 @@ namespace Shard
                     }
                 }
             }
+=======
+                    //else
+                    //{
+                    //    WallTile br = new WallTile();
+                    //    br.Transform.X = 100 + (i * 40);
+                    //    br.Transform.Y = 100 + (j * 40);
+                    //    myWallTiles.Add(br);
+                    //}
+                }
+            }
+           
+>>>>>>> Stashed changes
         }
 
         public override void initialize()
