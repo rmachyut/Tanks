@@ -1,21 +1,25 @@
 ﻿using Shard;
 using System;
 using System.Drawing;
+using System.Numerics;
 
 namespace GameTest
 {
     class Bullet : GameObject, CollisionHandler
     {
-        private Spaceship origin;
+        private Spaceship shipRef;
+
+        private Vector2 bulletOffset;
 
         public void setupBullet(Spaceship or, float x, float y)
         {
+            this.shipRef = or;
+
             this.Transform.X = x;
             this.Transform.Y = y;
             this.Transform.Wid = 10;
             this.Transform.Ht = 10;
 
-            this.origin = or;
 
             setPhysicsEnabled();
 
