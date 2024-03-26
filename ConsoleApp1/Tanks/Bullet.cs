@@ -9,9 +9,9 @@ namespace GameTanks
     class Bullet1 : GameObject, CollisionHandler
     {
         private Tank1 origin;
-        Vector2 dir, lastDir;
-        internal Vector2 LastDir { get => lastDir; set => lastDir = value; }
-        internal Vector2 Dir { get => dir; set => dir = value; }
+        //Vector2 dir, lastDir;
+        //internal Vector2 LastDir { get => lastDir; set => lastDir = value; }
+        //internal Vector2 Dir { get => dir; set => dir = value; }
         public void setupBullet1(Tank1 or, float x, float y)
         {
             this.Transform.X = x;
@@ -27,7 +27,8 @@ namespace GameTanks
             //MyBody.addRectCollider((int)x, (int)y, 10, 10);
 
             //addTag("Bullet");
-            MyBody.addCircleCollider();
+            //MyBody.addCircleCollider();
+            MyBody.addRectCollider(0,0,8,8);
             //            MyBody.addCircleCollider((int)x, (int)y, 5);
 
             MyBody.ReflectOnCollision = true;
@@ -102,14 +103,26 @@ namespace GameTanks
             //    Debug.Log("Hit Wall");
             //    Dir = new Vector2(1,1);
             //}
+            else if (x.Parent.checkTag("Tank1") == true)
+            {
+                return;
+            }
         }
 
         public void onCollisionExit(PhysicsBody x)
         {
+            if (x.Parent.checkTag("Tank1") == true)
+            {
+                return;
+            }
         }
 
         public void onCollisionStay(PhysicsBody x)
         {
+            if (x.Parent.checkTag("Tank1") == true)
+            {
+                return;
+            }
         }
 
         public override string ToString()

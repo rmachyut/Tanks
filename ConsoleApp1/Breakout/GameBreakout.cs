@@ -44,7 +44,7 @@ namespace Shard
                     }*/
 
                     Brick br = new Brick();
-                    br.Transform.X = 100 + (i * 33);
+                    br.Transform.X = 100 + (i * 65);
                     br.Transform.Y = 100 + (j * 33);
                     br.Health = 1 + rand.Next(3);
                     myBricks.Add(br);

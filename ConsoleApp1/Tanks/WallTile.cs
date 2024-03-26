@@ -45,12 +45,7 @@ namespace GameTanks
 
         public void onCollisionEnter(PhysicsBody x)
         {
-            //Health -= 1;
 
-            //if (Health <= 0)
-            //{
-            //    this.ToBeDestroyed = true;
-            //}
         }
 
         public void onCollisionExit(PhysicsBody x)

@@ -169,14 +169,26 @@ namespace GameTanks
                     this.ToBeDestroyed = true;
                 }
             }
+            else if (x.Parent.checkTag("Bullet1") == true)
+            {
+                return;
+            }
         }
 
         public void onCollisionExit(PhysicsBody x)
         {
+            if (x.Parent.checkTag("Bullet1") == true)
+            {
+                return;
+            }
         }
 
         public void onCollisionStay(PhysicsBody x)
         {
+            if (x.Parent.checkTag("Bullet1") == true)
+            {
+                return;
+            }
         }
 
         public override string ToString()
